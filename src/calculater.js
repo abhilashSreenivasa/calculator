@@ -15,7 +15,7 @@ class Calculator{
         return this.res
     }
     divide(a,b){
-        if (b!=1){
+        if (b!=0){
             this.res=a/b
             return this.res
         }
